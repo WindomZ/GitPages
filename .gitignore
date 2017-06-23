@@ -11,6 +11,8 @@ public/
 .deploy*/
 package-lock.json
 
-# idea
-.idea/
+# IntelliJ project files
+.idea
 *.iml
+out
+gen

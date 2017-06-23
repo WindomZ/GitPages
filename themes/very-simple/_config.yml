@@ -6,7 +6,7 @@ menu:
   About: about.html
 
 social:
-  email:
+  email: git.windomz@gmail.com
   twitter:
   weibo:
   github: WindomZ
@@ -17,6 +17,6 @@ social:
 fancybox: true # set to true if you want to use it
 
 duoshuo: #duoshuo_shortname
-disqus: #disqus _shortname
-google_analytics: #Google Analytics Tracking Code
+disqus: https-windomz-github-io
+google_analytics: UA-101546872-1
 google_adsense_page_level_ads: #Google Adsense Page Level Ads Code
