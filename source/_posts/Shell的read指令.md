@@ -27,11 +27,11 @@ tags:
 
 - -e
     - use Readline to obtain the line in an interactive shell
-    - 在shell交互脚本中，将`Readline`用于读取输入行
+    - 在shell交互脚本，使用`Readline`读取输入行，适用于使用`-i`等
 
 - -i text 文本
     - Use TEXT as the initial text for Readline
-    - 将`Readline`用于读取输入行，并且在编辑输入之前将文本TEXT放入编辑缓冲区。
+    - 使用`Readline`读取输入行，在开始输入之前将文本TEXT写入输入区，适用于默认输入值
 
 - -n nchars 字符个数
     - return after reading NCHARS characters rather than waiting for a newline, but honor a delimiter if fewer than NCHARS characters are read before the delimiter
@@ -43,7 +43,7 @@ tags:
 
 - -p prompt 提示语句
     - output the string PROMPT without a trailing newline before attempting to read
-    - 在输入之前，先在输入区写入没有换行符的字符串PROMPT
+    - 在输入之前，写入没有换行符的字符串PROMPT作为提示输入信息，不占用输入
 
 - -r
     - do not allow backslashes to escape any characters
